@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<title>{TITLE} - ADMIN CP</title>
+
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+		<link href="./templates/Free-Rogue.com/css/AY.css" rel="stylesheet">
+		<link href="./templates/Free-Rogue.com/css/BE.css" rel="stylesheet">
+		<link href="./templates/Free-Rogue.com/css/SE.css" rel="stylesheet">
+	</head>
+
+	<body>
+	{HOOK:ADM-HEAD}
+	{HOOK:ADM-TOP}
+	<div class="header">
+		<div class="container-narrow">
+			<div class="masthead text-center">
+			<h1 class="muted">{TITLE}</h1>
+			<h4 class="muted">ADMIN CP</h4>
+				<ul class="nav nav-pills">
+					<li><a href="?config">Settings</a>
+					<li><a href="?plugins">Extensions</a>
+					<li><a href="?templates">Skins</a>
+					<li>|
+					<li><a href="?create">New Post</a>
+					<li><a href="?modify">Edit Post</a>
+					<li>|
+					<li><a href="?password">Change Password</a>
+					<li><a href="?logout">Logout</a>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container-narrow">
+	<div class="row-fluid">
+	<div class="span10 offset1"><br>
+	
